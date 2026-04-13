@@ -1,0 +1,12 @@
+node_modules
+dist
+build
+coverage
+.env
+.git
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.gif
+*.webp

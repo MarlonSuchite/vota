@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Ocultar barra de desplazamiento del navegador por completo */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;  /* Para Internet Explorer y Edge */
+  scrollbar-width: none;  /* Para Firefox */
+}

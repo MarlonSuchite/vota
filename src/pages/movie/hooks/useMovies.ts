@@ -3,7 +3,7 @@ import { useGetMoviesQuery } from "../api/movie"
 
 export const useMovies = () => {
 
-    const { data: movies } = useGetMoviesQuery()
+    const { data: movies = [] } = useGetMoviesQuery()
 
     useEffect(() => {
         console.log('movies', movies)
